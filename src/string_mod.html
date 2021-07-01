@@ -5,20 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.css"></script>
     <title>String modifier</title>
 </head>
 
 <body>
 
-    <h1 id="titulo"></h1>
-    <div id="input_text"></div>
-    <div id="button_container">
-        <button class="button" id="style"></button>
-        <button class="button" id="specs"></button>
-        <button class="button" id="send"></button>
+    <div id="page_container">
+        <h1 id="titulo">String exchange</h1>
+        <div id="app_container">
+            <textarea class="field" id="input_text"></textarea>
+            <div id="button_container">
+                <button class="control_button" id="style"></button>
+                <button class="control_button" id="specs"></button>
+                <button class="control_button" id="send">&#9654;</button>
+            </div>
+            <textarea class="field" id="output_text" disabled></textarea>
+        </div>
     </div>
-    <div id="output_text"></div>
-
 </body>
 
 </html>
